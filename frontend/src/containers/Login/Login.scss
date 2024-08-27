@@ -1,0 +1,19 @@
+.login-form {
+  margin-top: 100px;
+
+  .login-header {
+    margin-bottom: 50px;
+  }
+
+  .form-control {
+    padding: 10px;
+  }
+
+  .submit-btn {
+    button {
+      letter-spacing: 0.7px;
+      font-weight: 600;
+      font-size: 18px;
+    }
+  }
+}

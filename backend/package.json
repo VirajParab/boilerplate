@@ -1,0 +1,35 @@
+{
+  "name": "mern-docker-nginx-backend",
+  "version": "1.0.0",
+  "description": "Backend application built using Node JS & Express JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-prod": "NODE_ENV=production pm2 start app.js",
+    "scan": "auditjs ossi"
+  },
+  "author": "Karan Jagtiani",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.4.0",
+    "express-session": "^1.17.3",
+    "express-winston": "^4.2.0",
+    "helmet": "^5.1.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.4.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "winston": "^3.8.1",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "auditjs": "^4.0.37",
+    "nodemon": "^2.0.18"
+  }
+}
